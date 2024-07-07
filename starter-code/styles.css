@@ -1,0 +1,348 @@
+:root{
+    --grisFormulario: rgb(66, 64, 64);
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration-color: greenyellow;
+}
+
+/* h2{
+    font-size: 2rem;
+} */
+
+p{
+    font-size: 1.9rem;
+    line-height: 3rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.name{
+   font-size: 2.3rem; 
+}
+
+h1{
+    font-size: 3.5rem;
+    width: 80%;
+    text-align: center;
+    /* border: solid red 1px; */
+}
+
+span{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-underline-offset: 0.8rem;
+}
+
+.iconos-foto{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* justify-content: start; */
+    background-image: url("./assets/images/image-profile-desktop.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 28rem;
+    width: 16rem;
+    /* border: solid red 2px; */
+}
+
+.icono img{
+    margin-top: 0.4rem;
+    width: 2rem;
+}
+
+
+.iconos-foto div img{
+    /* width: 4rem; */
+}
+
+.contactame{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-underline-offset: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.contactame a{
+    
+}
+
+.proyectos{
+    /* border-top: white 1px solid; */
+    /* border-bottom: white 1px solid; */
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: white 1px solid;
+    /* border-bottom: white 1px solid; */
+}
+
+.skill{
+    /* display: flex; */
+    /* margin: 0; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* border: solid rgb(0, 255, 98) 1px; */
+}
+
+.skills .skill h2{
+    margin-bottom: 0rem;
+}
+.skills .skill p{
+    margin-top: 1rem;
+}
+
+.skill h2{
+    font-size: 3.3rem;
+    /* border: solid red 1px; */
+}
+
+.skill p{
+    /* margin-top: 0rem; */
+    /* border: solid red 1px; */
+}
+
+.proyecto{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.proyectos-cabeza{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 0.5rem;
+    align-items: center;
+    border-top: solid 1px white;
+    
+    /* border: solid red 1px; */
+}
+
+.proyectos-cabeza h3{
+    font-size: 3.5rem;
+}
+
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.proyectos h2{
+    font-size: 2.5rem;
+    /* text-align: left; */
+    /* border: solid 1px red; */
+}
+
+.pareja-skills{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid 1px red; */
+}
+
+.pareja-skills p{
+    margin-left: 0.9rem;
+}
+
+.verpro{
+    margin-right: 5rem;
+}
+
+.imagen{
+    height: 23rem;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: solid yellow 2px; */
+    /* text-align: left; */
+}
+
+.imagen1{
+    background-image: url("./assets/images/thumbnail-project-1-large.webp");
+}
+.imagen2{
+    background-image: url("./assets/images/thumbnail-project-2-large.webp");
+}
+.imagen3{
+    background-image: url("./assets/images/thumbnail-project-3-large.webp");
+}
+.imagen4{
+    background-image: url("./assets/images/thumbnail-project-4-large.webp");
+}
+.imagen5{
+    background-image: url("./assets/images/thumbnail-project-5-large.webp");
+}
+.imagen6{
+    background-image: url("./assets/images/thumbnail-project-6-large.webp");
+}
+
+.footer{
+    width: 100%;
+    padding-top: 1rem;
+    margin: 0rem;
+    background-color: var(--grisFormulario);
+    border: red solid 1px;
+}
+
+.footer-head h2{
+    font-size: 5rem;
+}
+
+.footer-head p{
+    /* width: 93%; */
+    margin: 0rem 2% 0rem 2%;
+}
+
+
+.formu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10rem;
+    border: red solid 1px;
+}
+.formu input{
+    background-color: var(--grisFormulario);
+    width: 95%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    border: none;
+    border-bottom: white 1px solid;
+}
+
+.formu .formu-mensaje{
+    padding-bottom: 5rem;
+    /* padding-right: 20rem; */
+}
+
+.formu-boton{
+    width: 100%;
+    text-align: right;
+    margin-top: 2rem;
+    margin-right: 2%;
+    /* border: solid red 1px; */
+}
+
+.formu-boton button{
+    font-size: 2rem;
+    border: none;
+    background-color: var(--grisFormulario);
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-underline-offset: 1rem;
+}
+
+@media (min-width: 750px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iconos-foto{
+        justify-content: end;
+        /* border: solid 2px red; */
+        height: 60rem;
+        width: 40rem;
+        position: absolute;
+        left: 77rem;
+        z-index: -1;
+    }
+
+    .icono img{
+        margin-top: 2.4rem;
+        margin-right: 2.3rem;
+        width: 2.7rem;
+    }
+
+    .hero{
+        width: 80%;
+        align-items: start;
+        /* border: red solid 1px; */
+        /* border-bottom: white 1px solid; */
+    }
+
+    .hero h1{
+        text-align: left;
+        font-size: 9rem;
+        width: 70rem;
+        border: solid red 1px;
+    }
+
+    .descripcion{
+        text-align: start;
+        width: 36rem;
+        border: red solid 1px;
+    }
+
+    .contactame-top{
+        /* margin-bottom: 10rem; */
+    }
+
+    .skills{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        /* border: solid red 1px; */
+    }
+
+    .skill{
+        width: 60%;
+        /* display: flex; */
+        /* flex-direction: column; */
+       /* align-items: start; */
+       text-align: left;
+       border-top: none;
+       /* border: solid red 1px; */
+    }
+
+    .proyectos-cabeza{
+        width: 80%;
+    }
+
+    .proyectos-cabeza h3{
+        font-size: 6rem;
+    }
+
+    .proyectos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 80%;
+        border-top: none;
+        /* border: red solid 1px; */
+    }
+
+    .proyecto{
+        /* border: solid red; */
+    }
+
+    .imagen{
+        height: 35em;
+    }
+
+    .verProCod{
+        display: none;
+    }
+
+}
