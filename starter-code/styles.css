@@ -6,6 +6,15 @@ body{
     background-color: black;
     color: white;
     text-align: center;
+    /* width: 100%; */
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* border: red solid 2px; */
 }
 
 a{
@@ -31,6 +40,7 @@ p{
 
 .name{
    font-size: 2.3rem; 
+   /* border: green solid 2px; */
 }
 
 h1{
@@ -60,11 +70,22 @@ span{
     /* border: solid red 2px; */
 }
 
+.icono{
+    margin-left:1rem ;
+    margin-right:1rem ;
+}
+
 .icono img{
     margin-top: 0.4rem;
     width: 2rem;
 }
 
+.iconos-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    /* border: red solid 2px; */
+}
 
 .iconos-foto div img{
     /* width: 4rem; */
@@ -198,7 +219,7 @@ span{
     padding-top: 1rem;
     margin: 0rem;
     background-color: var(--grisFormulario);
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 .footer-head h2{
@@ -216,7 +237,7 @@ span{
     flex-direction: column;
     align-items: center;
     padding-bottom: 10rem;
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 .formu input{
     background-color: var(--grisFormulario);
@@ -256,15 +277,20 @@ span{
         display: flex;
         flex-direction: column;
         align-items: center;
+        /* max-width: 120rem; */
     }
 
+    .contenido{
+        max-width: 110rem;
+        /* border: green solid 2px; */
+    }
     .iconos-foto{
         justify-content: end;
         /* border: solid 2px red; */
         height: 60rem;
         width: 40rem;
         position: absolute;
-        left: 77rem;
+        left: 90rem;
         z-index: -1;
     }
 
@@ -285,13 +311,13 @@ span{
         text-align: left;
         font-size: 9rem;
         width: 70rem;
-        border: solid red 1px;
+        /* border: solid red 1px; */
     }
 
     .descripcion{
         text-align: start;
         width: 36rem;
-        border: red solid 1px;
+        /* border: red solid 1px; */
     }
 
     .contactame-top{
@@ -334,15 +360,35 @@ span{
     }
 
     .proyecto{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        max-width: 47rem;
         /* border: solid red; */
     }
 
     .imagen{
         height: 35em;
+        max-width: 47rem;
     }
+    
 
     .verProCod{
         display: none;
+    }
+
+    .icono{
+    width: 3rem;
+    /* border: solid red 2px; */
+    }
+
+    .iconos-footer{
+        align-items: end;
+        justify-content: end;
+    }
+    .name{
+        text-align: end;
+        margin-right: 1rem;
+        /* border: solid red 2px; */
     }
 
 }
